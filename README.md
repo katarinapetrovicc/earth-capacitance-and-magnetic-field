@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains COMSOL Multiphysics models developed as part of a graduate project in Computational Electromagnetics.
+This repository contains COMSOL Multiphysics models developed as part of a project assignment in Computational Electromagnetics.
 
 The project focuses on the numerical modeling of the Earth's electromagnetic environment through three simulation models.
 
@@ -52,10 +52,16 @@ The simulation includes:
 
 ---
 
-## Software
+## Software and Physics Interfaces
 
 - COMSOL Multiphysics 5.4
 - AC/DC Module
+
+The following physics interfaces were used:
+
+- **Electrostatics (es)** – for modeling the Earth–ionosphere capacitance, electric potential, and electric field distribution.
+- **Electric Currents (ec)** – for analyzing the electric current density between the Earth and the ionosphere.
+- **Magnetic Fields (mf)** – for modeling the Earth's magnetic field using a magnetic point dipole.
 
 ---
 
